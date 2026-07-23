@@ -33,3 +33,6 @@ Nota Técnica: Por limitações no tempo de planejamento e escopo durante o dese
 - Christian Ferreira
 
 Docente: Prof. Irlan Arley Targino Moreira
+
+## Clone esse repositorio:
+  git clone https://github.com/guilhermeduarte1-maker/Autoria-Web.git
