@@ -9,11 +9,11 @@ Este repositório contém o trabalho final desenvolvido para a disciplina de Aut
 O projeto está dividido em duas pastas principais:
 
 1. Projeto Autoria Web (Versão Principal / Entregue)
-Descrição: É a versão final e integrada do site que foi enviada para avaliação.
+  É a versão final e integrada do site que foi enviada para avaliação.
 Conteúdo: Contém a página principal (index.html), folhas de estilo e a navegação entre as seções gerais do projeto.
 
 2. pagina-de-produtos (Módulos Individuais)
-Descrição: Páginas dedicadas e detalhadas para cada produto individualmente.
+  Páginas dedicadas e detalhadas para cada produto individualmente.
 Nota Técnica: Por limitações no tempo de planejamento e escopo durante o desenvolvimento, estas páginas de produtos individuais não foram integradas à navegação do site principal (Projeto Autoria Web). Elas permanecem no repositório como registro do trabalho de estruturação e design dos componentes individuais.
 
 ---
@@ -39,7 +39,7 @@ Você pode conferir o planejamento visual e os wireframes do projeto diretamente
 - Carlos Eduardo
 - Christian Ferreira
 
-Docente: Prof. Irlan Arley Targino Moreira
+Reitor: Prof. Irlan Arley Targino Moreira
 
 ---
 
