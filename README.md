@@ -28,7 +28,7 @@ Nota Técnica: Por limitações no tempo de planejamento e escopo durante o dese
 ## 🎨 Protótipo e Design (Figma)
 
 Você pode conferir o planejamento visual e os wireframes do projeto diretamente no Figma:
-- [Acessar Protótipo no Figma]([Cole_O_Link_Do_Figma_Aqui](https://www.figma.com/design/zoUtoJpxIOzbRuJNvZK1y2/Projeto-de-Autoria-Web?node-id=0-1&t=8EqxVnoZ11jRWrKm-1))
+- [Acessar Protótipo no Figma](https://www.figma.com/design/zoUtoJpxIOzbRuJNvZK1y2/Projeto-de-Autoria-Web?node-id=0-1&t=8EqxVnoZ11jRWrKm-1)
   
 ---
 
