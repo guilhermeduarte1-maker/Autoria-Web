@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+  font-size: 10px;
+}
+
+/*navegação e rodapé */
+nav, footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.barra-navegacao {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+.menu-links {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+.menu-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.icones a img {
+    height: 2.8rem;
+    margin-left: 2rem;
+}
+.logo img {
+    height: auto;      
+    width: 12rem;       
+}
+header img {
+    height: 8rem;
+}
+
+/* banner */
+.banner {
+  background: linear-gradient(to bottom, #c30000, #000);
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #fff;
+}
+.logo-banner {
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+.banner h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+.itens-banner {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+.itens-banner img {
+  width: 12rem;
+  height: auto;
+}
+.itens-banner p {
+  margin-top: 1rem;
+}
+
+
+/* produtos */
+.produtos{
+    background-color: #C7C7CE;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+}
+.lista-produtos {
+    display: flex;           
+    gap: 2rem;               
+    flex-wrap: wrap;         
+    justify-content: center; 
+}
+.produto {
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 25rem;           
+    padding: 1.5rem;
+    text-align: center;
+    flex-grow: 1;
+}
+.produto img {
+    max-width: 100%;  
+    height: auto;       
+    display: block;      
+    margin: 0 auto;      
+    border-radius: 1rem; 
+    object-fit: contain; 
+}
+.nome-sessao {
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+}
+.nome-produto {
+  font-family: Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+  margin-bottom: 1.5rem;
+  
+}
+.preco-produto {
+  font-family: Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #C31818; 
+  margin-bottom: 1rem;
+  text-align: left;
+}
+#tenis-everlast img {
+    padding-top: 6rem;
+    width: 100%;
+    height: 19.5rem;
+    object-fit: contain; 
+}
+.produtos img { 
+    width: 100%;
+    height: 20rem;
+    object-fit: contain;
+}
+
+/* rodapé */
+.rodape {
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 1.5rem;
+  display: flex;     
+  flex-direction: column;    
+  align-items: center;    
+  gap: 1rem;       
+}
+.rodape p {
+  opacity: 0.5;
+}
+.links-rodape {
+  display: flex;            
+  gap: 1.5rem;
+  opacity: 0.6;
+}
+.links-rodape a {
+  color: #fff;
+  text-decoration: none; 
+}
+
+/*tablet*/
+@media (max-width: 768px) {
+    .itens-banner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .barra-navegacao {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-links {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 1rem;
+    }
+    .icones {
+        margin-top: 1rem;
+        gap: 1.5rem;
+    }
+    .rodape {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; }
+}
+/*celular*/
+@media (max-width: 480px) {
+    .banner h2 {
+        font-size: 2.2rem;
+    }
+    .logo-banner {
+        width: 8rem;
+    }
+    .menu-links li a {
+        font-size: 1.4rem;
+    }
+    .produto {
+        width: 100%;
+    }
+    .nome-produto, .preco-produto {
+        font-size: 1.4rem;
+    }
+    .icones a img {
+        height: 2.2rem;
+        margin-left: 1rem;
+    }
+    .rodape { 
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem; 
+    }
+    .links-rodape {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem; 
+    }
+}
