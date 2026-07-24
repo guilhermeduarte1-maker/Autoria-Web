@@ -115,6 +115,11 @@ body {
 .rodape p {
   opacity: 0.5;
 }
+.links-rodape {
+  display: flex;            
+  gap: 1.5rem;
+  opacity: 0.6;
+}
 .links-rodape a {
   color: #fff;
   text-decoration: none;
